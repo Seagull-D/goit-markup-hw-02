@@ -1,0 +1,140 @@
+:root {
+    --background-color: #FFFFFF;
+    --active-link-color: #4D5AE5;
+    --active-button-colore: #404BBF;
+    --primary-font: "Roboto", sans-serif;
+    --text-color: #2E2F42;
+}
+
+
+body {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    background-color: var(--background-color) 
+    }
+
+/* Logo */
+.Logo-detalies  {
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+.first-logocolor {
+    color: #4D5AE5;
+}
+.second-logocolor {
+    color: #2E2F42;
+}
+.second-logocolor-footer {
+    color: #F4F4FD;
+}
+
+/* nav container*/
+.nav-container .link  {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+        text-decoration: none;
+        
+}
+
+.nav-container .link:hover, .nav-container .link:active {
+    color: #4D5AE5;
+}
+.nav-container ul {
+    list-style-type: none;
+}
+
+/*Contact links*/
+.contact-links .link {
+        color: #434455; 
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.contact-links .link:hover, .contact-links .link:active {
+    color: #4D5AE5;
+}
+.contact-links ul {
+    list-style-type: none;
+}
+
+/*menu buttons*/
+.menu-buttons .button {
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        background-color: #E7E9FC;
+        color: #4D5AE5;
+}
+.menu-buttons .button:hover, .menu-buttons .button:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+.menu-buttons ul{
+    list-style-type: none;
+}
+/* Headers titles*/
+.header-1 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+.header-2 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+}
+
+.header-3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;
+        background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+                border: 1px solid #E7E9FC;
+}
+.p-body-font {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+        background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+                border: 1px solid #E7E9FC;
+} 
+.content ul {
+    list-style-type: none;
+}
+.footer-container {
+    background-color: #2E2F42;}
+.p-footer {
+    color: #F4F4FD;
+}
