@@ -63,7 +63,7 @@ font-style: normal;
         text-align: left;
         color: var(--text-color)}
 
-        .address-link:hover, .address-link:active, .address-link:focus {
+        .address-link:hover, .address-link:active, address-link:focus {
         color: #404bbf;
 }
 
