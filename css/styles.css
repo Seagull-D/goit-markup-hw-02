@@ -3,7 +3,7 @@
     --active-link-color: #4D5AE5;
     --active-button-colore: #404BBF;
     --primary-font: "Roboto", sans-serif;
-    --text-color:#434455;
+    --text-color:#434455 ;
 }
 
 
@@ -12,6 +12,9 @@ body {
     color: var(--text-color);
     background-color: var(--background-color) 
     }
+.link {
+    text-decoration: none;
+}
 
 /* Logo */
 .logo {
@@ -25,30 +28,32 @@ body {
         
         color: #4D5AE5;
 }
+
 .second-logocolor {
-    color: #2E2F42;
+    color: #42362e;
 }
 .second-logocolor-footer {
     color: #F4F4FD;
 }
-.logo.link {text-decoration: none;}
+
+    
 
 /* nav container*/
 .nav-container .link  {
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5px;
+        line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
-        text-decoration: none;
+        
         
 }
 
 .nav-container .link:hover, .nav-container .link:active {
     color: #4D5AE5;
 }
-.nav-container ul {
+.nav-container .list {
     list-style-type: none;
 }
 
@@ -61,7 +66,7 @@ body {
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-        text-decoration: none;
+        
 }
 
 .contact-links .link:hover, .contact-links .link:active {
