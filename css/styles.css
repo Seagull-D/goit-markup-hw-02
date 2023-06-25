@@ -18,14 +18,12 @@ body {
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
         text-transform: uppercase;
         text-decoration: none;
-}
-.first-logocolor {
-    color: #4D5AE5;
+        color: #4D5AE5;
 }
 .second-logocolor {
     color: #2E2F42;
@@ -38,7 +36,7 @@ body {
 .nav-container .link  {
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.5px;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
