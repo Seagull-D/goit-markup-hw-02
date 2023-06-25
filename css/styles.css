@@ -90,6 +90,6 @@ font-style: normal;
         color: #ffffff;
         cursor: pointer;
 }
-.main-button:hover, .main-button:active, :main-button:focus {
+.main-button:hover, .main-button:active, .main-button:focus {
     background-color: #404BBF;
 }
