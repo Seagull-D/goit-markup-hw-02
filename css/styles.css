@@ -5,7 +5,7 @@
     --active-button-colore: #404BBF;
     --primary-font: "Roboto", sans-serif;
     --text-color:#434455 ;
-    --link-text-color;
+    --link-text-color: #2e2f42;
 }
 
 
@@ -24,7 +24,7 @@ body {
 
 /*Logo info*/
 .logo {
-        font-family: Raleway;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
