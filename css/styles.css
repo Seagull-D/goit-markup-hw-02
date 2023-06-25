@@ -31,7 +31,7 @@ body {
 .second-logocolor-footer {
     color: #F4F4FD;
 }
-.link {text-decoration: none;}
+.logo .link {text-decoration: none;}
 
 /* nav container*/
 .nav-container .link  {
