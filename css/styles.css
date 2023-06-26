@@ -101,7 +101,7 @@ font-style: normal;
     
         font-size: 20px;
         font-weight: 500;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
         color:var(--text-color-second);
@@ -123,9 +123,10 @@ font-style: normal;
 
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align:center;
+    text-transform: capitalize;
     color: var(--text-color-second);
 }
 
@@ -141,6 +142,7 @@ font-style: normal;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: var(--text-color-second);
 }
 
