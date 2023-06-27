@@ -129,6 +129,7 @@ font-style: normal;
     text-align:center;
     text-transform: capitalize;
     color: var(--text-color-second);
+    text-align: center
 }
 
 /*Team seaction*/
