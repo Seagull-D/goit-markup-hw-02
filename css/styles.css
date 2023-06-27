@@ -154,7 +154,7 @@ font-style: normal;
     
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align:left;
         color: var(--text-color-second);
@@ -164,7 +164,7 @@ font-style: normal;
     
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: var(--text-color);
@@ -183,9 +183,45 @@ font-style: normal;
     font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #F4F4FD;
-      
+}
+
+                 /*PORTFOLIO*/
+/*  Menu buttons */
+.menu-button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #4D5AE5;
+        background-color: #E7E9FC;
+        cursor: pointer;
+}
+
+.menu-button:hover, .menu-button:active, .menu-button:focus {
+    background-color:#404BBF ;
+    color: #FFFFFF;
+}
+/*content portfolio*/
+.content-title {
+    
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color-second);
+}
+.p-body-font {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--text-color);
 }
