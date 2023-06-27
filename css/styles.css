@@ -7,6 +7,7 @@
     --text-color:#434455 ;
     --text-color-second: #2e2f42;
     --logo-color: #4D5AE5; 
+    --button-collor: #F4F4FD;
 }
 
 
@@ -191,14 +192,17 @@ font-style: normal;
 
                  /*PORTFOLIO*/
 /*  Menu buttons */
+
+.menu-container
+
 .menu-button {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
-        color: #4D5AE5;
-        background-color: #E7E9FC;
+        color: var(--active-link-color);
+        background-color: var(--button-collor);
         cursor: pointer;
 }
 
