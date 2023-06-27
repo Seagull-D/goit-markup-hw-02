@@ -196,6 +196,7 @@ font-style: normal;
 .menu-container
 
 .menu-button {
+        font-family: "Roboto", sans-serif
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
